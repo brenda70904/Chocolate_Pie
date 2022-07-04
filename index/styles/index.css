@@ -1,10 +1,13 @@
 .body{
     text-align: center;
-    width: 1000px;
+    width: 900px;
     padding: 20px;
     margin: auto;
 }
-.logoIMG{
+.header{
+    margin:20px;
+}
+iMG{
     float: left;
     margin: 5px;
 }
@@ -21,4 +24,101 @@
 }
 .iconTAG{
     float: right;
+}
+hr{
+    text-align: center;
+    margin: 10px;
+    border-top: 10px solid lightgray;
+}
+.title{
+    text-align: left;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+} 
+.postDate{
+    text-align: left;
+    color: gray;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.print{
+    text-align: right;
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.paragraph{
+    text-align: left;
+    text-indent: 40px;
+    letter-spacing: .1px;
+    color: gray;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ingredientList{
+    position: relative;
+}
+.ingredient{
+    position: absolute;
+    left:60px ;
+    top: 40px;
+    text-align: left;
+    line-height:25px ;
+    column-count: 2;
+}
+tr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    vertical-align: top;
+}
+.imag{
+    float: left;
+    margin: 15px;
+}
+.footer_second{
+    width: 750px;
+}
+.author{
+  text-align: left;
+  font-size: 20px;
+  padding:10px;
+  width: 550px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutMe{
+    text-align: left;
+    float: left;
+    color: gray;
+    width: 550px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sharebutton{
+    text-align: right;
+    float: right;
+    color: white;
+    font-size: medium;
+    background-color: rgb(240, 98, 4);
+    border: none;
+    margin: 10px;
+    padding: 15px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.smalllogo{
+    float: center;
+    position: absolute;
+
+}
+.footerborder{
+    margin: 50px;
+    padding: 20px;
+    border-bottom: solid lightgray 1px;
+}
+.copy_right{
+    color: lightgray;
+    text-align: center;
 }
